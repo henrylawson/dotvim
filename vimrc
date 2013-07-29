@@ -27,3 +27,8 @@ set scrolloff=3                   " Show 3 lines of context around the cursor.
 set title                         " Set the terminal's title
 
 set visualbell                    " No beeping.
+
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
