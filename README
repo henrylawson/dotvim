@@ -2,4 +2,5 @@ Henry's Vim configuration
 
 To get started:
 1. ln -s /full/path/to/gvimrc ~/.gvimrc
-2. ln -s /full/path/to/vimrc ~/.vimrc
+1. ln -s /full/path/to/vimrc ~/.vimrc
+1. Install NeoBundle
