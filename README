@@ -4,3 +4,4 @@ To get started:
 1. ln -s /full/path/to/gvimrc ~/.gvimrc
 1. ln -s /full/path/to/vimrc ~/.vimrc
 1. Install NeoBundle
+1. Install Powerline fonts (https://github.com/powerline/fonts)

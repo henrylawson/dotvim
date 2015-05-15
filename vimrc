@@ -26,6 +26,7 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle '29decibel/codeschool-vim-theme'
+NeoBundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call neobundle#end()
 
@@ -62,7 +63,7 @@ set hlsearch                      " Highlight matches.
 set wrap                          " Turn on line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 
-set title                         " Set the terminal's title
+set title                         " Set the terminal's title 
 
 set visualbell                    " No beeping.
 
@@ -85,6 +86,9 @@ let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
-" Solarized Color
+" Colorscheme
 colorschem codeschool
-set guifont=Source\ Code\ Pro\ Medium:h16
+set guifont=Source\ Code\ Pro\ for\ Powerline:h16
+
+" Powerline
+set laststatus=2
