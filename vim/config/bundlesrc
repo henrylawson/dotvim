@@ -1,0 +1,10 @@
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'tomasr/molokai'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle '29decibel/codeschool-vim-theme'
+NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'bling/vim-airline'
+NeoBundle 'tpope/vim-fugitive'
