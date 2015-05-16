@@ -27,6 +27,8 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle '29decibel/codeschool-vim-theme'
 NeoBundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
+NeoBundle 'vim-ruby/vim-ruby'
 
 call neobundle#end()
 
@@ -71,6 +73,9 @@ set ic														" Case insensitive searching
 
 set clipboard=unnamed							" Clipboard sharing
 
+set guioptions-=r									" Remove right scrollbar
+set guioptions-=L									" Remove left scrollbar
+
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
@@ -83,6 +88,11 @@ set softtabstop=2
 
 " NERDTree Config
 map <C-n> :NERDTreeToggle<CR>
+"" Open NERDTree when vim opens
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif 
+"" Close NERDTree when it is the last window
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " CtrlP Config
 let g:ctrlp_map = '<c-p>'
@@ -97,3 +107,12 @@ set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 
 " Powerline
 set laststatus=2
+
+" Folding
+au FileType javascript call JavaScriptFold()
+set foldmethod=syntax
+inoremap <F9> <C-O>za
+nnoremap <F9> za
+onoremap <F9> <C-C>za
+vnoremap <F9> zf
+set nofoldenable
