@@ -39,9 +39,6 @@ au BufNewFile,BufRead *rc set filetype=vim
 colorschem codeschool
 set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 
-" Powerline
-set laststatus=2
-
 " Folding
 au FileType javascript call JavaScriptFold()
 set foldmethod=syntax
@@ -51,17 +48,10 @@ onoremap <F9> <C-C>za
 vnoremap <F9> zf
 set nofoldenable
 
-let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#enabled=1
-let g:airline_theme='wombat'
-let g:airline#extensions#tabline#fnamemod=':t'
-
 " This allows buffers to be hidden if you've modified a buffer.
-" This is almost a must if you wish to use buffers in this way.
 set hidden
 
 " To open a new empty buffer
-" This replaces :tabnew which I used to bind to this mapping
 nmap <leader>T :enew<CR>
 
 " Move to the next buffer
@@ -71,5 +61,7 @@ nmap <leader>] :bnext<CR>
 nmap <leader>[ :bprevious<CR>
 
 " Close the current buffer and move to the previous one
-" This replicates the idea of closing a tab
 nmap <leader>q :bp <BAR> bd #<CR>
+
+" Disable splash screen message
+set shortmess+=I
