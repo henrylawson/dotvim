@@ -11,8 +11,3 @@ endif
 
 nnoremap K :grep! "<C-R><C-W>"<CR><CR>:cw<CR>
 vnoremap K y:grep! "<C-R>""<CR><CR>:cw<CR>
-
-augroup quickfix
-    autocmd!
-    autocmd FileType qf setlocal nowrap
-augroup END

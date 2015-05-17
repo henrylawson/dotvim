@@ -63,3 +63,9 @@ nmap <leader>q :bp <BAR> bd #<CR>
 
 " Disable splash screen message
 set shortmess+=I
+
+" Quickfix window
+augroup quickfix
+    autocmd!
+    autocmd FileType qf setlocal nowrap
+augroup END
