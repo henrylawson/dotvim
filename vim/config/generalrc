@@ -34,7 +34,8 @@ set softtabstop=2
 au BufNewFile,BufRead *rc set filetype=vim
 
 " Colorscheme
-colorschem codeschool
+set background=dark
+colorscheme codeschool
 set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 
 " Folding
