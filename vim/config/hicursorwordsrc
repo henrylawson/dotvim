@@ -1,6 +1,7 @@
 let g:HiCursorWords_delay = 100
 let g:HiCursorWords_debugEchoHiName = 0
 
+autocmd WinEnter * call ToggleHiCursor()
 autocmd BufEnter * call ToggleHiCursor()
 
 function! ToggleHiCursor()
