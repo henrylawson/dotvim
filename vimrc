@@ -5,5 +5,4 @@ source ~/.vim/config/generalrc
 source ~/.vim/config/airlinerc
 source ~/.vim/config/silversearcherrc
 source ~/.vim/config/vimrubyrc
-source ~/.vim/config/semantichighlightrc
 source ~/.vim/config/hicursorwordsrc
