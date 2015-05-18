@@ -4,7 +4,7 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'bling/vim-airline'
 
 " Languages
-NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
+NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'guns/vim-clojure-static'
 NeoBundle 'mustache/vim-mustache-handlebars'
