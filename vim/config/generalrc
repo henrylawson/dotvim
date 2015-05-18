@@ -19,16 +19,18 @@ set visualbell                    " No beeping.
 set clipboard=unnamed							" Clipboard sharing
 set guioptions-=r									" Remove right scrollbar
 set guioptions-=L									" Remove left scrollbar
+set tabstop=2											" Spaces per tab
+set shiftwidth=2
+set softtabstop=2
+filetype on												" Enable filetype detection
+filetype indent on    						" Enable filetype-specific indenting
+filetype plugin on    						" Enable filetype-specific plugins
 
 " Disabling arrow keys
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
-
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
 
 " Filetype association
 au BufNewFile,BufRead *rc set filetype=vim

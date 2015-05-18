@@ -2,12 +2,16 @@
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'bling/vim-airline'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'godlygeek/csapprox'
 
 " Languages
 NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
 NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'guns/vim-clojure-static'
+NeoBundle 'mustache/vim-mustache-handlebars'
+NeoBundle 'hail2u/vim-css3-syntax'
+NeoBundle 'groenewege/vim-less'
+NeoBundle 'wavded/vim-stylus'
+NeoBundle 'othree/html5.vim'
 
 " Colorschemes
 NeoBundle '29decibel/codeschool-vim-theme'
