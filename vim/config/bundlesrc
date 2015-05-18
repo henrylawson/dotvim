@@ -15,3 +15,5 @@ NeoBundle 'othree/html5.vim'
 
 " Colorschemes
 NeoBundle '29decibel/codeschool-vim-theme'
+NeoBundle 'jaxbot/semantic-highlight.vim'
+NeoBundle 'ihacklog/HiCursorWords'
