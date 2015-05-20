@@ -6,7 +6,6 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-commentary'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
-NeoBundle 'terryma/vim-multiple-cursors'
 
 " Languages
 NeoBundle 'jelera/vim-javascript-syntax'

@@ -10,6 +10,7 @@ K   				search for word under cursor or highlighted word with AG
 <leader>lw  search for word under cursor or highlighted word in ctrlp
 <C-p>		  	show ctrlp window
 <leader>lc	show file in NERDTree
+r           refresh NERDTree node
 gcc			  	comment out a line
 gc			  	combined with a motion will comment motion or highlight
 -------------------------------------------------------------------------
