@@ -11,3 +11,5 @@ if !exists( "*EndToken" )
 endif
 
 imap <S-CR> <ESC>:execute 'normal o' . EndToken()<CR>O
+inoremap <C-Space> <C-x><C-o>
+inoremap <C-@> <C-Space>

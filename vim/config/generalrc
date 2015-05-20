@@ -46,7 +46,6 @@ set foldmethod=syntax
 inoremap <F9> <C-O>za
 nnoremap <F9> za
 onoremap <F9> <C-C>za
-vnoremap <F9> zf
 set nofoldenable
 
 " This allows buffers to be hidden if you've modified a buffer.
@@ -54,12 +53,6 @@ set hidden
 
 " To open a new empty buffer
 nmap <leader>T :enew<CR>
-
-" Move to the next buffer
-nmap <leader>] :bnext<CR>
-
-" Move to the previous buffer
-nmap <leader>[ :bprevious<CR>
 
 " Close the current buffer and move to the previous one
 nmap <leader>q :bp <BAR> bd #<CR>
