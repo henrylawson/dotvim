@@ -3,6 +3,9 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-unimpaired'
+NeoBundle 'tpope/vim-commentary'
+NeoBundle 'tpope/vim-surround'
+eatNeoBundle 'tpope/vim-repeat'
 
 " Languages
 NeoBundle 'jelera/vim-javascript-syntax'
