@@ -13,6 +13,12 @@ K   				search for word under cursor or highlighted word with AG
 gcc			  	comment out a line
 gc			  	combined with a motion will comment motion or highlight
 -------------------------------------------------------------------------
+vim-multiple-cursors
+-------------------------------------------------------------------------
+<C-m>       create cursor for word under cursor, puts you in visual mode
+<C-p>       undo last multiple cursor selection
+<C-x>       skip current multuple cursor selection
+-------------------------------------------------------------------------
 surround.vim
 -------------------------------------------------------------------------
 cs"'		  	change " that surrounds text to '

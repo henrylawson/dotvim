@@ -6,3 +6,4 @@ source ~/.vim/config/airlinerc
 source ~/.vim/config/silversearcherrc
 source ~/.vim/config/vimrubyrc
 source ~/.vim/config/hicursorwordsrc
+source ~/.vim/config/multiplecursorsrc
