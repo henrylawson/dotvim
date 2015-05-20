@@ -7,9 +7,9 @@ custom or plugins
 <leader>T		new buffer
 za		    	toggle code fold
 K   				search for word under cursor or highlighted word with AG
-<leader>    lw search for word under cursor or highlighted word in ctrlp
+<leader>lw  search for word under cursor or highlighted word in ctrlp
 <C-p>		  	show ctrlp window
-,n			  	show file in NERDTree
+<leader>lc	show file in NERDTree
 gcc			  	comment out a line
 gc			  	combined with a motion will comment motion or highlight
 -------------------------------------------------------------------------

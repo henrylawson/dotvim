@@ -5,7 +5,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-commentary'
 NeoBundle 'tpope/vim-surround'
-eatNeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-repeat'
 
 " Languages
 NeoBundle 'jelera/vim-javascript-syntax'
