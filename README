@@ -162,8 +162,8 @@ p           go to parent
 P           go to root
 K           go to first child
 J           go to last child
-<C-­k>      go to prev sibling
-<C-­j>      go to next sibling
+<C­k>       go to prev sibling
+<C­j>       go to next sibling
 I           hidden files (off)
 f           file filters (on)
 F           files (on)
