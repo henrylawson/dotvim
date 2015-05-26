@@ -22,6 +22,7 @@ set guioptions-=L									" Remove left scrollbar
 set tabstop=2											" Spaces per tab
 set shiftwidth=2
 set softtabstop=2
+set colorcolumn=80								" Column bar
 filetype on												" Enable filetype detection
 filetype indent on    						" Enable filetype-specific indenting
 filetype plugin on    						" Enable filetype-specific plugins
@@ -65,3 +66,7 @@ augroup quickfix
     autocmd!
     autocmd FileType qf setlocal nowrap
 augroup END
+
+" Highlight trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+\%#\@<!$/

@@ -8,11 +8,11 @@ To get started:
 5. Install iterm2
 6. Install MacVim
 
-=========================================================================
+===============================================================================
 command     meaning
-=========================================================================
+===============================================================================
 normal mode
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 A           insert at the end of line
 I           insert at the start of line
 o           insert on the line below
@@ -64,11 +64,11 @@ viw         visual mode, select the word
 gv          switch to visual mode, seelcting the last selection
 :noh        clear search markings
 o           in visual mode, go to other end of selection
-I           in visual block mode, insert for all lines 
+I           in visual block mode, insert for all lines
 A           in visual block mode, append for all lines
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 custom or plugins
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 <leader>q   close buffer
 <leader>T   new buffer
 za          toggle code fold
@@ -77,29 +77,29 @@ K           search for word under cursor or highlighted word with AG
 <C-p>       show ctrlp window
 gcc         comment out a line
 gc          combined with a motion will comment motion or highlight
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 vim-multiple-cursors
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 <C-m>       create cursor for word under cursor, puts you in visual mode
 <C-p>       undo last multiple cursor selection
 <C-x>       skip current multuple cursor selection
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 surround.vim
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 cs"'        change " that surrounds text to '
 ds"         delete " that surrounds text
 ysiw]       iw is text motion, the text will be wrapped with []
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 vim-ruby
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 <C-Space>   show a menu with method suggestions
 <C-n>       navigate down in above autosuggest menu
 <C-p>       navigate up in above autosuggest menu
 <C-y>       select suggestion in above autosuggest menu
 <S-CR>      autoclose the open if statement, block, lambda or set
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 unimpaired.vim
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 [a          previous file
 ]a          next file
 [A          first file
@@ -130,9 +130,9 @@ yo          paste with o
 yO          paste with O
 yI          paste with I
 yA          paste with A
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 NERDTree
--------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 <leader>lc  show file in NERDTree
 r           refresh NERDTree node
 o           open in prev window
@@ -173,5 +173,5 @@ B           bookmarks (off)
 q           Close the NERDTree window
 A           Zoom (maxim­ize­-mi­nimize) the NERDTree window
 ?           toggle help
-=========================================================================
+===============================================================================
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2
