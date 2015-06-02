@@ -66,6 +66,7 @@ gv          switch to visual mode, seelcting the last selection
 o           in visual mode, go to other end of selection
 I           in visual block mode, insert for all lines
 A           in visual block mode, append for all lines
+yiw         Yank word under cursor
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
