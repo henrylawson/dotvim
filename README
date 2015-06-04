@@ -66,7 +66,13 @@ gv          switch to visual mode, seelcting the last selection
 o           in visual mode, go to other end of selection
 I           in visual block mode, insert for all lines
 A           in visual block mode, append for all lines
-yiw         Yank word under cursor
+yiw         yank word under cursor
+<C-D>       move half-page down
+<C-U>       move half-page up
+<C-B>       page up
+<C-F>       page down
+<C-o>       jump to last cursor position
+<C-i>       jump to next cursor position
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
