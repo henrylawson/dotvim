@@ -24,6 +24,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set colorcolumn=80								" Column bar
+set cursorline                    " Highlight the current line
 filetype on												" Enable filetype detection
 filetype indent on    						" Enable filetype-specific indenting
 filetype plugin on    						" Enable filetype-specific plugins
@@ -57,7 +58,7 @@ set hidden
 nmap <leader>T :enew<CR>
 
 " Close the current buffer and move to the previous one
-nmap <leader>q :bp <BAR> bd #<CR>
+nmap <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 
 " Disable splash screen message
 set shortmess+=I
@@ -71,3 +72,10 @@ augroup END
 " Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+\%#\@<!$/
+
+" common commands
+nnoremap <leader>w :w<CR>
+
+" copy commands to grab file names
+nmap <leader>cs :let @*=expand("%")<CR>       " relative path
+nmap <leader>cl :let @*=expand("%:p")<CR>     " full path

@@ -75,6 +75,7 @@ yiw         yank word under cursor
 <C-i>       jump to next cursor position
 :g          grep in the file
 :g!         grep in all the files in the project
+<leader>f   start Ag to search all files in open directory
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
@@ -89,6 +90,11 @@ gc          combined with a motion will comment motion or highlight
 <leader>rw  open quickfix window, results window (copen)
 <leader>re  close quickfix window, results exit (cclose)
 <leader>cm  clear search markings (noh)
+<leader>w   save file
++           expand visual selected region
+_           contract visual selected region
+<leader>cs  copy the relative filename
+<leader>cl  copy the full filename
 -------------------------------------------------------------------------------
 vim-multiple-cursors
 -------------------------------------------------------------------------------

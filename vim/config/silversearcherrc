@@ -12,6 +12,10 @@ endif
 nnoremap K :grep! "<C-R><C-W>"<CR><CR>:cw<CR>
 vnoremap K y:grep! "<C-R>""<CR><CR>:cw<CR>
 
-nnoremap <leader>rw :copen <CR>
-nnoremap <leader>re :cclose <CR>
-nnoremap <leader>cm :noh <CR>
+nnoremap <leader>rw :copen<CR>
+nnoremap <leader>re :cclose<CR>
+nnoremap <leader>cm :noh<CR>
+
+" bind \ (backward slash) to grep shortcut
+command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+nnoremap <leader>f :Ag<SPACE>
