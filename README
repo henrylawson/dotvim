@@ -73,6 +73,8 @@ yiw         yank word under cursor
 <C-F>       page down
 <C-o>       jump to last cursor position
 <C-i>       jump to next cursor position
+:g          grep in the file
+:g!         grep in all the files in the project
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
@@ -84,6 +86,9 @@ K           search for word under cursor or highlighted word with AG
 <C-p>       show ctrlp window
 gcc         comment out a line
 gc          combined with a motion will comment motion or highlight
+<leader>rw  open quickfix window, results window (copen)
+<leader>re  close quickfix window, results exit (cclose)
+<leader>cm  clear search markings (noh)
 -------------------------------------------------------------------------------
 vim-multiple-cursors
 -------------------------------------------------------------------------------
