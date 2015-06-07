@@ -96,6 +96,22 @@ _           contract visual selected region
 <leader>cs  copy the relative filename
 <leader>cl  copy the full filename
 -------------------------------------------------------------------------------
+ctrlp
+-------------------------------------------------------------------------------
+<F5>        refresh
+<c-f>       and <c-b> to cycle between modes.
+<c-d>       to switch to filename only search instead of full path.
+<c-r>       to switch to regexp mode.
+<c-j>       go up in result list
+<c-k>       go down in result list
+<c-t>       open in new tab
+<c-v>       open in a vertical split
+<c-x>       open in a horizontal split
+<c-n>       select next string in prompts history
+<c-p>       select prev string in prompts history
+<c-y>       to create a new file and its parent directories.
+<c-z>       to mark/unmark multiple files and <c-o> to open them.
+-------------------------------------------------------------------------------
 vim-multiple-cursors
 -------------------------------------------------------------------------------
 <C-m>       create cursor for word under cursor, puts you in visual mode
