@@ -3,10 +3,12 @@ Henry's Vim configuration
 To get started:
 1. ln -s /full/path/to/gvimrc ~/.gvimrc
 2. ln -s /full/path/to/vimrc ~/.vimrc
-3. Install NeoBundle
-4. Install Powerline fonts (https://github.com/powerline/fonts)
-5. Install iterm2
-6. Install MacVim
+3. ln -s /full/path/to/vim ~/.vim
+4. Install NeoBundle
+5. Run ~/.vim/bundle/neobundle.vim/bin/neoinstall
+6. Install Powerline fonts (https://github.com/powerline/fonts)
+7. Install iterm2
+8. Install MacVim
 
 ===============================================================================
 command     meaning
