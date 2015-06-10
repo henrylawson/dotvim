@@ -7,6 +7,7 @@ NeoBundle 'tpope/vim-commentary'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'terryma/vim-expand-region'
+NeoBundle 'rizzatti/dash.vim'
 
 " Languages
 NeoBundle 'jelera/vim-javascript-syntax'

@@ -79,3 +79,6 @@ nnoremap <leader>w :w<CR>
 " copy commands to grab file names
 nmap <leader>cs :let @*=expand("%")<CR>       " relative path
 nmap <leader>cl :let @*=expand("%:p")<CR>     " full path
+
+" dash
+nmap <silent> <leader>d <Plug>DashSearch

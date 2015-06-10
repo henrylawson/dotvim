@@ -81,6 +81,7 @@ yiw         yank word under cursor
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
+<leader>d   search in dash docs window
 <leader>q   close buffer
 <leader>T   new buffer
 za          toggle code fold
