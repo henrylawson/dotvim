@@ -126,6 +126,7 @@ surround.vim
 cs"'        change " that surrounds text to '
 ds"         delete " that surrounds text
 ysiw]       iw is text motion, the text will be wrapped with []
+S*          in visual mode, highlight than S followed by what you want to wrap
 -------------------------------------------------------------------------------
 vim-ruby
 -------------------------------------------------------------------------------
