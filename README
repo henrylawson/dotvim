@@ -78,6 +78,7 @@ yiw         yank word under cursor
 :g          grep in the file
 :g!         grep in all the files in the project
 <leader>f   start Ag to search all files in open directory
+gq          in visual, to wrap at 80 chars
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------

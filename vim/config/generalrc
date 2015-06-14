@@ -82,3 +82,11 @@ nmap <leader>cl :let @*=expand("%:p")<CR>     " full path
 
 " dash
 nmap <silent> <leader>d <Plug>DashSearch
+
+" spell check
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.markdown setlocal spell
+autocmd BufRead,BufNewFile *.txt setlocal spell
+autocmd BufRead,BufNewFile *.rdoc setlocal spell
+autocmd FileType gitcommit setlocal spell
+autocmd FileType text setlocal spell
