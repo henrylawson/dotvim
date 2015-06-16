@@ -83,7 +83,7 @@ gq          in visual, to wrap at 80 chars
 custom or plugins
 -------------------------------------------------------------------------------
 <leader>d   search in dash docs window
-<leader>q   close buffer
+<leader>q   close buffer, <tab>q to force quit
 <leader>T   new buffer
 za          toggle code fold
 K           search for word under cursor or highlighted word with AG

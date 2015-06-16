@@ -58,7 +58,8 @@ set hidden
 nmap <leader>T :enew<CR>
 
 " Close the current buffer and move to the previous one
-nmap <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
+nmap <leader>q :Bdelete<CR>
+nmap <leader><tab>q :Bdelete!<CR>
 
 " Disable splash screen message
 set shortmess+=I

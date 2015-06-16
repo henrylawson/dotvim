@@ -8,6 +8,7 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'terryma/vim-expand-region'
 NeoBundle 'rizzatti/dash.vim'
+NeoBundle 'moll/vim-bbye'
 
 " Languages
 NeoBundle 'jelera/vim-javascript-syntax'
