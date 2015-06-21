@@ -38,3 +38,6 @@ map <Leader>I gg=G``<cr>
 
 " clear whitespace
 nmap <leader>d :DeleteTrailingWhitespace<CR>
+
+" only this buffer stays open
+nmap <leader>z :BufOnly<CR>

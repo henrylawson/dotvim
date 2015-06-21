@@ -10,6 +10,7 @@ NeoBundle 'terryma/vim-expand-region'
 NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'moll/vim-bbye'
 NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
+NeoBundle 'vim-scripts/BufOnly.vim'
 
 " Languages
 NeoBundle 'jelera/vim-javascript-syntax'
