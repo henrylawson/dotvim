@@ -51,7 +51,7 @@ u           undo
 <C-v>       visual block mode
 v           visual mode
 V           vertical visual mode
-g~          change case
+~           change case
 guu         change line to lowercase
 gUU         change line to uppercase
 gu          change selection to lowercase
@@ -82,7 +82,7 @@ gq          in visual, to wrap at 80 chars
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
-<leader>d   search in dash docs window
+<leader>D   search in dash docs window
 <leader>q   close buffer, <tab>q to force quit
 <leader>T   new buffer
 za          toggle code fold
@@ -99,6 +99,10 @@ gc          combined with a motion will comment motion or highlight
 _           contract visual selected region
 <leader>cs  copy the relative filename
 <leader>cl  copy the full filename
+go          insert blank line above
+gO          insert blank line below
+<leader>d   clear all trailing whitespace
+<leader>I   cleans up the indenting in the entire file
 -------------------------------------------------------------------------------
 ctrlp
 -------------------------------------------------------------------------------
