@@ -16,6 +16,5 @@ nnoremap <leader>rw :copen<CR>
 nnoremap <leader>re :cclose<CR>
 nnoremap <leader>cm :noh<CR>
 
-" bind \ (backward slash) to grep shortcut
 command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap <leader>f :Ag<SPACE>
