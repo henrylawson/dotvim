@@ -1,4 +1,4 @@
-let mapleader="\\"
+let mapleader="\\"                " Leader key!
 set nocompatible                  " Must come first because it changes other options.
 syntax enable                     " Turn on syntax highlighting.
 set showcmd                       " Display incomplete commands.
@@ -20,69 +20,26 @@ set clipboard=unnamed							" Clipboard sharing
 set guioptions-=r									" Remove right scrollbar
 set guioptions-=L									" Remove left scrollbar
 set tabstop=2											" Spaces per tab
-set shiftwidth=2
-set softtabstop=2
-set expandtab
+set shiftwidth=2                  " Spacing to shift when using >>
+set softtabstop=2                 " How spaces to use for <tab> key in insert
+set expandtab                     " Use spaces instead of \t
 set colorcolumn=80								" Column bar
 set cursorline                    " Highlight the current line
 filetype on												" Enable filetype detection
 filetype indent on    						" Enable filetype-specific indenting
 filetype plugin on    						" Enable filetype-specific plugins
-
-" Disabling arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-
-" Filetype association
-au BufNewFile,BufRead *rc set filetype=vim
+set hidden                        " Hide buffer when new files are opened
 
 " Colorscheme
 set background=dark
 colorscheme codeschool
 set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 
-" Folding
-au FileType javascript call JavaScriptFold()
-set foldmethod=syntax
-inoremap <F9> <C-O>za
-nnoremap <F9> za
-onoremap <F9> <C-C>za
-set nofoldenable
-
-" This allows buffers to be hidden if you've modified a buffer.
-set hidden
-
-" To open a new empty buffer
-nmap <leader>T :enew<CR>
-
-" Close the current buffer and move to the previous one
-nmap <leader>q :Bdelete<CR>
-nmap <leader><tab>q :Bdelete!<CR>
-
-" Disable splash screen message
-set shortmess+=I
-
 " Quickfix window
 augroup quickfix
   autocmd!
   autocmd FileType qf setlocal nowrap
 augroup END
-
-" Highlight trailing whitespace
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+\%#\@<!$/
-
-" common commands
-nnoremap <leader>w :w<CR>
-
-" copy commands to grab file names
-nmap <leader>cs :let @*=expand("%")<CR>       " relative path
-nmap <leader>cl :let @*=expand("%:p")<CR>     " full path
-
-" dash
-nmap <silent> <leader>D <Plug>DashSearch
 
 " spell check
 autocmd BufRead,BufNewFile *.md setlocal spell
@@ -92,12 +49,14 @@ autocmd BufRead,BufNewFile *.rdoc setlocal spell
 autocmd FileType gitcommit setlocal spell
 autocmd FileType text setlocal spell
 
-" insert blank lines without going into insert mode
-nmap go o<esc>
-nmap gO O<esc>
+" Filetype association
+au BufNewFile,BufRead *rc set filetype=vim
 
-" reindent the entire file
-map <Leader>I gg=G``<cr>
+" Highlight trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+\%#\@<!$/
 
-" clear whitespace
-nmap <leader>d :DeleteTrailingWhitespace<CR>
+" Folding
+au FileType javascript call JavaScriptFold()
+set foldmethod=syntax
+set nofoldenable

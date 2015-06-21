@@ -20,7 +20,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
-source ~/.vim/config/bundlesrc
+source ~/.vim/setup/bundles.vim
 
 call neobundle#end()
 
