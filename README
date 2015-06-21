@@ -99,8 +99,6 @@ gc          combined with a motion will comment motion or highlight
 _           contract visual selected region
 <leader>cs  copy the relative filename
 <leader>cl  copy the full filename
-go          insert blank line above
-gO          insert blank line below
 <leader>d   clear all trailing whitespace
 <leader>I   cleans up the indenting in the entire file
 <leader>z   only this buffer stays open

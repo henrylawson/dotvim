@@ -29,10 +29,6 @@ nmap <leader>cl :let @*=expand("%:p")<CR>     " full path
 " dash
 nmap <silent> <leader>D <Plug>DashSearch
 
-" insert blank lines without going into insert mode
-nmap go o<esc>
-nmap gO O<esc>
-
 " reindent the entire file
 map <Leader>I gg=G``<cr>
 
