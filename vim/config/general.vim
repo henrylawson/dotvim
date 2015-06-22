@@ -60,3 +60,8 @@ match ExtraWhitespace /\s\+\%#\@<!$/
 au FileType javascript call JavaScriptFold()
 set foldmethod=syntax
 set nofoldenable
+
+" Indent Line
+let g:indentLine_char = '┆'
+let g:indentLine_enabled = 1
+
