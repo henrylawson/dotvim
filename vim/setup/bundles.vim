@@ -12,6 +12,7 @@ NeoBundle 'terryma/vim-expand-region'
 NeoBundle 'tpope/vim-commentary'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
+NeoBundle 'Glench/Vim-Jinja2-Syntax'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
