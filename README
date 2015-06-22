@@ -1,6 +1,8 @@
 Henry's Vim configuration
+*************************
 
 To get started:
+---------------
 1. ln -s /full/path/to/gvimrc ~/.gvimrc
 2. ln -s /full/path/to/vimrc ~/.vimrc
 3. ln -s /full/path/to/vim ~/.vim
@@ -10,6 +12,13 @@ To get started:
 7. Install iterm2
 8. Install MacVim
 9. Install the_silver_searcher
+
+To perform a find/replace in multiple files:
+--------------------------------------------
+1. <leader>f [search] [folder/file]
+2. Use [q or ]q to navigate quick fix results
+3. Record a macro using q<letter>[movement]q
+4. Use @<letter> to repeat the macro on each match
 
 ===============================================================================
 command     meaning
