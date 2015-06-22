@@ -37,3 +37,6 @@ nmap <leader>d :DeleteTrailingWhitespace<CR>
 
 " only this buffer stays open
 nmap <leader>z :BufOnly<CR>
+
+" Gundo
+nnoremap <leader>u :GundoToggle<CR>
