@@ -112,6 +112,7 @@ _           contract visual selected region
 <leader>d   clear all trailing whitespace
 <leader>I   cleans up the indenting in the entire file
 <leader>z   only this buffer stays open
+<leader>u   gundo window
 -------------------------------------------------------------------------------
 ctrlp
 -------------------------------------------------------------------------------

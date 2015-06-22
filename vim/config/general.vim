@@ -65,3 +65,5 @@ set nofoldenable
 let g:indentLine_char = '┆'
 let g:indentLine_enabled = 1
 
+" Gundo
+nnoremap <leader>u :GundoToggle<CR>

@@ -7,6 +7,7 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-repeat'
+NeoBundle 'sjl/gundo.vim'
 
 " Code, Text
 NeoBundle 'terryma/vim-expand-region'
