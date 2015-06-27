@@ -23,7 +23,7 @@ To perform a find/replace in multiple files:
 ===============================================================================
 command     meaning
 ===============================================================================
-normal mode
+standard vim
 -------------------------------------------------------------------------------
 A           insert at the end of line
 I           insert at the start of line
@@ -89,6 +89,12 @@ yiw         yank word under cursor
 :g!         grep in all the files in the project
 <leader>f   start Ag to search all files in open directory
 gq          in visual, to wrap at 80 chars
+<C-w>s      split window horizontal
+<C-w>v      split window vertical
+<C-w>w      cycle windows
+<C-w>hjkl   focus window using directional keys
+<C-w>c      close the active window
+<C-w>o      keep only current window
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
@@ -113,6 +119,8 @@ _           contract visual selected region
 <leader>I   cleans up the indenting in the entire file
 <leader>z   only this buffer stays open
 <leader>u   gundo window
+<leader>h   mkdir with p the folders for this file
+<leader>rr  reload the vim config
 -------------------------------------------------------------------------------
 ctrlp
 -------------------------------------------------------------------------------

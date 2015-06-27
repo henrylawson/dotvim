@@ -30,7 +30,7 @@ nmap <leader>cl :let @*=expand("%:p")<CR>     " full path
 nmap <silent> <leader>D <Plug>DashSearch
 
 " reindent the entire file
-map <Leader>I gg=G``<cr>
+map <Leader>I gg=G``<CR>
 
 " clear whitespace
 nmap <leader>d :DeleteTrailingWhitespace<CR>
@@ -40,3 +40,9 @@ nmap <leader>z :BufOnly<CR>
 
 " Gundo
 nnoremap <leader>u :GundoToggle<CR>
+
+" Make directories of desired file
+nmap <leader>p :!mkdir -p %:h<CR>
+
+" Reload vim config
+nmap <leader>rr :so $MYVIMRC<CR>
