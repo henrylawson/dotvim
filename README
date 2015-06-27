@@ -35,45 +35,18 @@ zz          redraw screen to have selected line the middle
 yy          yank line
 p           paste yank after
 P           paste yank before
-gg          goto start of file
-G           goto end of file
-^           goto beginning of line
-$           goto end of line
-b           goto start of previous word
-w           goto start of next word
-f{char}     find next entered character
-F{char}     find previous entered character
-;           repeat previous find expression
-,           go back for current find expression
 vi{char}    in visual mode, select everything inside char
 va{char}    in visual mode, select everything inside, including char
-*           goto next occurence of word
-%           goto matching parenthesis
-#           goto previous occurence of word
-n           find next instance of last search
-N           find previous instance of last search
 r           replace character
 x           delete character
 dd          delete line
-daw         delete word under cursor
 c{move}     change everything with the movement, then go to insert mode
 .           repeat last command
-gj          move down one display line
-gk          move up one display line
->G          tab line and all lines below to right
-<G          tab line and all lines below to left
->           tab line right
-<           tab line left
-=           autoindent
 u           undo
+<C-r>       redo
 <C-v>       visual block mode
 v           visual mode
 V           vertical visual mode
-~           change case
-guu         change line to lowercase
-gUU         change line to uppercase
-gu          change selection to lowercase
-gU          change selection to uppercase
 y           yank selection
 <C-w>       in insert mode, delete back one word
 <C-h>       in insert mode, delete back one character
@@ -81,7 +54,6 @@ y           yank selection
 <C-[>       in insert mode, switch to insert mode
 <C-o>       in insert mode, switch to insert normal mode
 gv          switch to visual mode, selecting the last selection
-:noh        clear search markings
 o           in visual mode, go to other end of selection
 I           in visual block mode, insert for all lines
 A           in visual block mode, append for all lines
@@ -93,34 +65,117 @@ is          current sentence
 as          current sentence plus one
 ip          current paragraph
 ap          current paragraph plus one blank line
+...............................................................................
+text changes
+...............................................................................
+~           toggle case
+guw         change word to lowercase
+gUw         change word to UPPERCASE
+guu         change line to lowercase
+gUU         change line to UPPERCASE
+guu         change line to lowercase
+gUU         change line to UPPERCASE
+gu          change selection to lowercase
+gU          change selection to UPPERCASE
+>G          tab line and all lines below to right
+<G          tab line and all lines below to left
+>           tab line right
+<           tab line left
+=           autoindent
+gq          in visual, to wrap at 80 chars
+...............................................................................
+getting around
+...............................................................................
+gg          goto start of file
+G           goto end of file
+^           goto beginning of line
+$           goto end of line
+b           goto start of previous word
+w           goto start of next word
+e           goto end of current word
+ge          goto end of previous word
+gj          move down one display line
+gk          move up one display line
 <C-D>       move half-page down
 <C-U>       move half-page up
 <C-B>       page up
 <C-F>       page down
 <C-o>       jump to last cursor position
 <C-i>       jump to next cursor position
-:g          grep in the file
-:g!         grep in all the files in the project
-<leader>f   start Ag to search all files in open directory
-gq          in visual, to wrap at 80 chars
+m{char}     set a mark, uppercase for global
+`{char}     go to mark
+...............................................................................
+search
+...............................................................................
+:noh        clear search markings
+/           perform a search in file looking forward
+?           perform a search in the file looking backward
+*           goto next occurence of word
+%           goto matching parenthesis
+#           goto previous occurence of word
+n           find next instance of last search
+N           find previous instance of last search
+f{char}     find next entered character
+F{char}     find previous entered character
+;           repeat previous find expression
+,           go back for current find expression
+...............................................................................
+substitution
+...............................................................................
+:s/a/b      replace first in the current line only
+:s/a/b/g    replace all in the current line only
+:%s/a/b/g   replace all in all lines
+:%s/a/b/gc  replace all in all lines, with confirmation on each match
+...............................................................................
+windows
+...............................................................................
 <C-w>s      split window horizontal
 <C-w>v      split window vertical
 <C-w>w      cycle windows
 <C-w>hjkl   focus window using directional keys
 <C-w>c      close the active window
 <C-w>o      keep only current window
-m{char}     set a mark, uppercase for global
-`{char}     go to mark
+...............................................................................
+registers
+...............................................................................
+"{char}     to perform a 'y, d, p, x' with a named register
+"0          the register yank also places text too
+"+          the register that represents the system clipboard
+<C-r>{char} in insert mode, paste from register
+...............................................................................
+macros
+...............................................................................
+q{char}     to record a macro, q again to stop recording
+@{char}     to play back a macro
+@@          to play back most recently invoked macro
+...............................................................................
+auto completion
+...............................................................................
+<C-n>       next auto complete word
+<C-p>       previous auto complete word
+<C-y>       select current word
+<C-e>       revert to the existing word
+<C-h>       delete one character from current match
+...............................................................................
+spell checker
+...............................................................................
+]s          next spelling error
+[s          previous spelling error
+z=          show possible corrections
+zg          add current word to dictionary
+zw          remove current word from dictionary
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
+&           repeat last substitution
+<leader>f   start Ag to search all files in open directory
 <leader>D   search in dash docs window
 <leader>q   close buffer, <tab>q to force quit
 <leader>T   new buffer
 za          toggle code fold
 K           search for word under cursor or highlighted word with AG
 <leader>lw  search for word under cursor or highlighted word in ctrlp
-<C-p>       show ctrlp window
+<C.p>       show ctrlp window
 gcc         comment out a line
 gc          combined with a motion will comment motion or highlight
 <leader>rw  open quickfix window, results window (copen)

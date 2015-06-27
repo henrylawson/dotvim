@@ -46,3 +46,7 @@ nmap <leader>p :!mkdir -p %:h<CR>
 
 " Reload vim config
 nmap <leader>rr :so $MYVIMRC<CR>
+
+" Repeat last substitution
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
