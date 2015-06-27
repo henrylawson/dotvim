@@ -1,5 +1,5 @@
 let mapleader="\\"                " Leader key!
-set nocompatible                  " Must come first because it changes other options
+set nocompatible                  " Make it not vi compatable
 syntax enable                     " Turn on syntax highlighting
 set showcmd                       " Display incomplete commands
 set showmode                      " Display the mode you're in
@@ -35,6 +35,7 @@ filetype plugin on                " Enable filetype-specific plugins
 set hidden                        " Hide buffer when new files are opened
 set history=1000                  " Increase the history to store
 set list                          " Better whitespce highlighting
+set shortmess+=I                  " Disable splash screen message
 
 " Colorscheme
 set background=dark

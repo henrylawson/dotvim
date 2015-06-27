@@ -16,9 +16,6 @@ nmap <leader>T :enew<CR>
 nmap <leader>q :Bdelete<CR>
 nmap <leader><tab>q :Bdelete!<CR>
 
-" Disable splash screen message
-set shortmess+=I
-
 " common commands
 nnoremap <leader>w :w<CR>
 
@@ -33,7 +30,7 @@ nmap <silent> <leader>D <Plug>DashSearch
 map <Leader>I gg=G``<CR>
 
 " clear whitespace
-nmap <leader>d :DeleteTrailingWhitespace<CR>:retab<CR>
+nmap <leader>d :retab<CR>:DeleteTrailingWhitespace<CR>
 
 " only this buffer stays open
 nmap <leader>z :BufOnly<CR>
