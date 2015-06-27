@@ -201,6 +201,14 @@ _             | contract visual selected region
 <leader>rr    | reload the vim config
 :w!!          | write with sudo
 -------------------------------------------------------------------------------
+git gutter
+-------------------------------------------------------------------------------
+]c            | next hunk of changes
+[c            | previous hunk of changes
+<leader>hs    | stage the hunk
+<leader>hr    | checkout the hunk
+<leader>hp    | preview the hunk changes
+-------------------------------------------------------------------------------
 ctrlp
 -------------------------------------------------------------------------------
 <F5>          | refresh

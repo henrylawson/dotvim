@@ -87,6 +87,3 @@ set undodir=~/.vim/temp/undo//
 
 " Ensure the default matchit with vim is working
 runtime! macros/matchit.vim
-
-" Turn on vim-gutter by default
-let g:gitgutter_sign_column_always = 1
