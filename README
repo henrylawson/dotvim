@@ -39,6 +39,8 @@ zz            | redraw screen to have selected line the middle
 yy            | yank line
 p             | paste yank after
 P             | paste yank before
+]p            | paste with indent
+ga            | view ASCII value
 vi{char}      | in visual mode, select everything inside char
 va{char}      | in visual mode, select everything inside, including char
 r             | replace character

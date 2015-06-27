@@ -18,6 +18,7 @@ NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tmhedberg/matchit'
+NeoBundle 'airblade/vim-gitgutter'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
