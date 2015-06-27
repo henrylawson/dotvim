@@ -39,6 +39,9 @@ set shortmess+=I                  " Disable splash screen message
 set undofile                      " Saves undo after file closes"
 set undolevels=1000               " How many undos
 set undoreload=10000              " number of lines to save for undo
+set writebackup                   " Make a backup before overwritting a file
+set backup                        " Make backup before overwrite
+set backupcopy=auto               " When possible, rename the old file
 
 " Colorscheme
 set background=dark
