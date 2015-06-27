@@ -17,8 +17,12 @@ To perform a find/replace in multiple files:
 --------------------------------------------
 1. <leader>f [search] [folder/file]
 2. Use [q or ]q to navigate quick fix results
-3. Record a macro using q<letter>[movement]q
-4. Use @<letter> to repeat the macro on each match
+3. Option #1
+    i. Record a macro using q<letter>[movement]q
+    ii. Use @<letter> to repeat the macro on each match
+   Option #2
+    i. Do a substitution, :%s/a/b/gc
+    ii. Repeat it in each file using gg and then &
 
 ===============================================================================
 command     meaning
