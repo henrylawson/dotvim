@@ -4,10 +4,10 @@ nnoremap <F9> za
 onoremap <F9> <C-C>za
 
 " Disabling arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
 
 " To open a new empty buffer
 nmap <leader>T :enew<CR>

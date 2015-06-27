@@ -23,7 +23,7 @@ To perform a find/replace in multiple files:
 ===============================================================================
 command     meaning
 ===============================================================================
-standard vim
+standard
 -------------------------------------------------------------------------------
 A           insert at the end of line
 I           insert at the start of line
@@ -42,7 +42,13 @@ $           goto end of line
 b           goto start of previous word
 w           goto start of next word
 f{char}     find next entered character
+F{char}     find previous entered character
+;           repeat previous find expression
+,           go back for current find expression
+vi{char}    in visual mode, select everything inside char
+va{char}    in visual mode, select everything inside, including char
 *           goto next occurence of word
+%           goto matching parenthesis
 #           goto previous occurence of word
 n           find next instance of last search
 N           find previous instance of last search
@@ -52,6 +58,8 @@ dd          delete line
 daw         delete word under cursor
 c{move}     change everything with the movement, then go to insert mode
 .           repeat last command
+gj          move down one display line
+gk          move up one display line
 >G          tab line and all lines below to right
 <G          tab line and all lines below to left
 >           tab line right
@@ -72,13 +80,19 @@ y           yank selection
 <C-u>       in insert mode, delete to start of line
 <C-[>       in insert mode, switch to insert mode
 <C-o>       in insert mode, switch to insert normal mode
-viw         visual mode, select the word
-gv          switch to visual mode, seelcting the last selection
+gv          switch to visual mode, selecting the last selection
 :noh        clear search markings
 o           in visual mode, go to other end of selection
 I           in visual block mode, insert for all lines
 A           in visual block mode, append for all lines
-yiw         yank word under cursor
+iw          current word
+aw          current word plus one
+iW          current WORD
+aW          current WORD plus one
+is          current sentence
+as          current sentence plus one
+ip          current paragraph
+ap          current paragraph plus one blank line
 <C-D>       move half-page down
 <C-U>       move half-page up
 <C-B>       page up
@@ -95,6 +109,8 @@ gq          in visual, to wrap at 80 chars
 <C-w>hjkl   focus window using directional keys
 <C-w>c      close the active window
 <C-w>o      keep only current window
+m{char}     set a mark, uppercase for global
+`{char}     go to mark
 -------------------------------------------------------------------------------
 custom or plugins
 -------------------------------------------------------------------------------
