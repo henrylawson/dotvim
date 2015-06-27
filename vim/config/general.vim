@@ -20,6 +20,10 @@ set clipboard=unnamed							" Clipboard sharing
 set guioptions-=r									" Remove right scrollbar
 set guioptions-=L									" Remove left scrollbar
 set tabstop=2											" Spaces per tab
+set smarttab                      " Better tab bhaviour
+set autoindent                    " Indent like the line above
+set smartindent                   " Do smart auto indent for new line
+set autoread                      " Read changes if file changed
 set shiftwidth=2                  " Spacing to shift when using >>
 set softtabstop=2                 " How spaces to use for <tab> key in insert
 set expandtab                     " Use spaces instead of \t
@@ -65,3 +69,13 @@ set nofoldenable
 let g:indentLine_char = '┆'
 let g:indentLine_enabled = 1
 
+" Return to last edit position when opening files
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
+
+" Placing the temp files in a central place
+set backupdir=~/.vim/temp/backup//
+set directory=~/.vim/temp/swap//
+set undodir=~/.vim/temp/undo//
