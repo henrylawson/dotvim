@@ -33,7 +33,7 @@ nmap <silent> <leader>D <Plug>DashSearch
 map <Leader>I gg=G``<CR>
 
 " clear whitespace
-nmap <leader>d :DeleteTrailingWhitespace<CR>
+nmap <leader>d :DeleteTrailingWhitespace<CR>:retab<CR>
 
 " only this buffer stays open
 nmap <leader>z :BufOnly<CR>
@@ -45,8 +45,12 @@ nnoremap <leader>u :GundoToggle<CR>
 nmap <leader>p :!mkdir -p %:h<CR>
 
 " Reload vim config
-nmap <leader>rr :so $MYVIMRC<CR>
+nmap <leader>rr :so $MYVIMRC<CR>:AirlineRefresh<CR>
 
 " Repeat last substitution
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
+
+" Faster viewport scolling
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>

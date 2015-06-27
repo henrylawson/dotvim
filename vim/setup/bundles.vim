@@ -16,6 +16,7 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'Yggdroot/indentLine'
+NeoBundle 'tmhedberg/matchit'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
@@ -35,6 +36,7 @@ NeoBundle 'mustache/vim-mustache-handlebars'
 
 " Ruby
 NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'vim-scripts/ruby-matchit'
 
 " Clojure
 NeoBundle 'guns/vim-clojure-static'

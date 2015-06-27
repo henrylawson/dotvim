@@ -1,38 +1,40 @@
 let mapleader="\\"                " Leader key!
-set nocompatible                  " Must come first because it changes other options.
-syntax enable                     " Turn on syntax highlighting.
-set showcmd                       " Display incomplete commands.
-set showmode                      " Display the mode you're in.
-set backspace=indent,eol,start    " Intuitive backspacing.
-set hidden                        " Handle multiple buffers better.
-set wildmenu                      " Enhanced command line completion.
-set wildmode=list:longest         " Complete files like a shell.
-set ignorecase                    " Case-insensitive searching.
-set number                        " Show line numbers.
-set ruler                         " Show cursor position.
-set incsearch                     " Highlight matches as you type.
-set hlsearch                      " Highlight matches.
-set wrap                          " Turn on line wrapping.
-set scrolloff=3                   " Show 3 lines of context around the cursor.
+set nocompatible                  " Must come first because it changes other options
+syntax enable                     " Turn on syntax highlighting
+set showcmd                       " Display incomplete commands
+set showmode                      " Display the mode you're in
+set backspace=indent,eol,start    " Intuitive backspacing
+set hidden                        " Handle multiple buffers better
+set wildmenu                      " Enhanced command line completion
+set wildmode=list:longest         " Complete files like a shell
+set ignorecase                    " Case-insensitive searching
+set number                        " Show line numbers
+set ruler                         " Show cursor position
+set incsearch                     " Highlight matches as you type
+set hlsearch                      " Highlight matches
+set wrap                          " Turn on line wrapping
+set scrolloff=9                   " Show 3 lines of context around the cursor
 set title                         " Set the terminal's title
-set visualbell                    " No beeping.
-set clipboard=unnamed							" Clipboard sharing
-set guioptions-=r									" Remove right scrollbar
-set guioptions-=L									" Remove left scrollbar
-set tabstop=2											" Spaces per tab
+set visualbell                    " No beeping
+set clipboard=unnamed             " Clipboard sharing
+set guioptions-=r                 " Remove right scrollbar
+set guioptions-=L                 " Remove left scrollbar
+set tabstop=2                     " Spaces per tab
 set smarttab                      " Better tab bhaviour
 set autoindent                    " Indent like the line above
-set smartindent                   " Do smart auto indent for new line
+ret smartindent                   " Do smart auto indent for new line
 set autoread                      " Read changes if file changed
 set shiftwidth=2                  " Spacing to shift when using >>
 set softtabstop=2                 " How spaces to use for <tab> key in insert
 set expandtab                     " Use spaces instead of \t
-set colorcolumn=80								" Column bar
+set colorcolumn=80                " Column bar
 set cursorline                    " Highlight the current line
-filetype on												" Enable filetype detection
-filetype indent on    						" Enable filetype-specific indenting
-filetype plugin on    						" Enable filetype-specific plugins
+filetype on                       " Enable filetype detection
+filetype indent on                " Enable filetype-specific indenting
+filetype plugin on                " Enable filetype-specific plugins
 set hidden                        " Hide buffer when new files are opened
+set history=1000                  " Increase the history to store
+set list                          " Better whitespce highlighting
 
 " Colorscheme
 set background=dark
@@ -56,10 +58,6 @@ autocmd FileType text setlocal spell
 " Filetype association
 au BufNewFile,BufRead *rc set filetype=vim
 
-" Highlight trailing whitespace
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+\%#\@<!$/
-
 " Folding
 au FileType javascript call JavaScriptFold()
 set foldmethod=syntax
@@ -71,11 +69,13 @@ let g:indentLine_enabled = 1
 
 " Return to last edit position when opening files
 autocmd BufReadPost *
-     \ if line("'\"") > 0 && line("'\"") <= line("$") |
-     \   exe "normal! g`\"" |
-     \ endif
+      \ if line("'\"") > 0 && line("'\"") <= line("$") |
+      \   exe "normal! g`\"" |
+      \ endif
 
 " Placing the temp files in a central place
 set backupdir=~/.vim/temp/backup//
 set directory=~/.vim/temp/swap//
 set undodir=~/.vim/temp/undo//
+
+runtime! macros/matchit.vim

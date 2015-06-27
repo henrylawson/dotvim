@@ -139,6 +139,8 @@ windows
 <C-w>hjkl     | focus window using directional keys
 <C-w>c        | close the active window
 <C-w>o        | keep only current window
+<C-e>         | scroll the viewport down
+<C-y>         | scroll the viewport up
 ...............................................................................
 registers
 ...............................................................................
