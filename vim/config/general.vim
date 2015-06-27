@@ -78,4 +78,5 @@ set backupdir=~/.vim/temp/backup//
 set directory=~/.vim/temp/swap//
 set undodir=~/.vim/temp/undo//
 
+" Ensure the default matchit with vim is working
 runtime! macros/matchit.vim
