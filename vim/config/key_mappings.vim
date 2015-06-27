@@ -38,9 +38,6 @@ nmap <leader>z :BufOnly<CR>
 " Gundo
 nnoremap <leader>u :GundoToggle<CR>
 
-" Make directories of desired file
-nmap <leader>p :!mkdir -p %:h<CR>
-
 " Reload vim config
 nmap <leader>rr :so $MYVIMRC<CR>:AirlineRefresh<CR>
 
@@ -51,3 +48,10 @@ xnoremap & :&&<CR>
 " Faster viewport scolling
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
+
+" Write with sudo
+cmap w!! w !sudo tee > /dev/null %
+
+" Catch common typo with W and Q, alias them
+cnoreabbrev W w
+cnoreabbrev Q q

@@ -196,8 +196,8 @@ _             | contract visual selected region
 <leader>I     | cleans up the indenting in the entire file
 <leader>z     | only this buffer stays open
 <leader>u     | gundo window
-<leader>h     | mkdir with p the folders for this file
 <leader>rr    | reload the vim config
+:w!!          | write with sudo
 -------------------------------------------------------------------------------
 ctrlp
 -------------------------------------------------------------------------------

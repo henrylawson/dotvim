@@ -8,6 +8,7 @@ NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'sjl/gundo.vim'
+NeoBundle 'duggiefresh/vim-easydir'
 
 " Code, Text
 NeoBundle 'terryma/vim-expand-region'
@@ -34,9 +35,10 @@ NeoBundle 'ihacklog/HiCursorWords'
 NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'mustache/vim-mustache-handlebars'
 
-" Ruby
+" Ruby, Rails
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'vim-scripts/ruby-matchit'
+NeoBundle 'slim-template/vim-slim'
 
 " Clojure
 NeoBundle 'guns/vim-clojure-static'

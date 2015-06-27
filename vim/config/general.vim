@@ -36,6 +36,9 @@ set hidden                        " Hide buffer when new files are opened
 set history=1000                  " Increase the history to store
 set list                          " Better whitespce highlighting
 set shortmess+=I                  " Disable splash screen message
+set undofile                      " Saves undo after file closes"
+set undolevels=1000               " How many undos
+set undoreload=10000              " number of lines to save for undo
 
 " Colorscheme
 set background=dark
