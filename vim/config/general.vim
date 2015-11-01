@@ -46,7 +46,7 @@ set backupcopy=auto               " When possible, rename the old file
 " Colorscheme
 set background=dark
 colorscheme codeschool
-set guifont=Source\ Code\ Pro\ for\ Powerline:h16
+set guifont=Hack:h16
 
 " Quickfix window
 augroup quickfix

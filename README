@@ -9,9 +9,10 @@ To get started:
 4. Install NeoBundle
 5. Run ~/.vim/bundle/neobundle.vim/bin/neoinstall
 6. Install Powerline fonts (https://github.com/powerline/fonts)
-7. Install iterm2
-8. Install MacVim
-9. Install the_silver_searcher
+7. Install Hack font (https://github.com/chrissimpkins/Hack#desktop-usage)
+8. Install iterm2
+9. Install MacVim
+10. Install the_silver_searcher
 
 To perform a find/replace in multiple files:
 --------------------------------------------
