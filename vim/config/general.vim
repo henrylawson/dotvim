@@ -34,11 +34,11 @@ filetype indent on                " Enable filetype-specific indenting
 filetype plugin on                " Enable filetype-specific plugins
 set hidden                        " Hide buffer when new files are opened
 set history=1000                  " Increase the history to store
-set list                          " Better whitespce highlighting
+set list                          " Show the dollar sign at the end of lines
 set shortmess+=I                  " Disable splash screen message
 set undofile                      " Saves undo after file closes"
 set undolevels=1000               " How many undos
-set undoreload=10000              " number of lines to save for undo
+set undoreload=10000              " Number of lines to save for undo
 set writebackup                   " Make a backup before overwritting a file
 set backup                        " Make backup before overwrite
 set backupcopy=auto               " When possible, rename the old file
