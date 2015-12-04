@@ -30,6 +30,7 @@ NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tmhedberg/matchit'
 NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'godlygeek/tabular'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
