@@ -201,6 +201,7 @@ _             | contract visual selected region
 <leader>u     | gundo window
 <leader>rr    | reload the vim config
 :w!!          | write with sudo
+<leader>go    | toggle goyo, fullscreen editing mode
 -------------------------------------------------------------------------------
 git gutter
 -------------------------------------------------------------------------------

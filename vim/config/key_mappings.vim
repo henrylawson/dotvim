@@ -55,3 +55,6 @@ cmap w!! w !sudo tee > /dev/null %
 " Catch common typo with W and Q, alias them
 cnoreabbrev W w
 cnoreabbrev Q q
+
+" Goyo
+nmap <leader>go :Goyo<CR>

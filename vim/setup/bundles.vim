@@ -30,7 +30,6 @@ NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tmhedberg/matchit'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'godlygeek/tabular'
-NeoBundle 'gabrielelana/vim-markdown'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
@@ -43,6 +42,10 @@ NeoBundle 'reedes/vim-colors-pencil'
 
 " Languages
 " =========
+
+" Markdown
+NeoBundle 'reedes/vim-pencil'
+NeoBundle 'junegunn/goyo.vim'
 
 " JavaScript
 NeoBundle 'jelera/vim-javascript-syntax'
