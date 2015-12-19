@@ -13,7 +13,6 @@ NeoBundle 'Shougo/vimproc.vim', {
 
 " Files, Search, Navigation
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'tpope/vim-unimpaired'
@@ -31,6 +30,7 @@ NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tmhedberg/matchit'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'godlygeek/tabular'
+NeoBundle 'plasticboy/vim-markdown'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
