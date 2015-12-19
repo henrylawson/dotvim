@@ -1,0 +1,1 @@
+../bundle/vim-colors-pencil/colors/pencil.vim

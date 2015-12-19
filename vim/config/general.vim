@@ -45,8 +45,9 @@ set backupcopy=auto               " When possible, rename the old file
 
 " Colorscheme
 set background=dark
-colorscheme codeschool
+" colorscheme codeschool
 set guifont=Hack:h16
+colorscheme pencil
 
 " Quickfix window
 augroup quickfix

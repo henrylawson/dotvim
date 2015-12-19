@@ -30,7 +30,7 @@ NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tmhedberg/matchit'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'godlygeek/tabular'
-NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'gabrielelana/vim-markdown'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
@@ -38,8 +38,8 @@ NeoBundle 'moll/vim-bbye'
 
 " Colorschemes, Design
 NeoBundle 'bling/vim-airline'
-NeoBundle '29decibel/codeschool-vim-theme'
 NeoBundle 'ihacklog/HiCursorWords'
+NeoBundle 'reedes/vim-colors-pencil'
 
 " Languages
 " =========
