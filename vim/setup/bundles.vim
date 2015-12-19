@@ -12,8 +12,8 @@ NeoBundle 'Shougo/vimproc.vim', {
 \ }
 
 " Files, Search, Navigation
-NeoBundle 'albfan/nerdtree'
-NeoBundle 'albfan/nerdtree-git-plugin'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'tpope/vim-unimpaired'
