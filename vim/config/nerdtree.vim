@@ -6,7 +6,17 @@ map <C-n> :NERDTreeToggle<CR>
 " autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif 
 
 " Close NERDTree when it is the last window
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
+
+function! s:CloseIfOnlyNerdTreeLeft()
+  if exists("t:NERDTreeBufName")
+    if bufwinnr(t:NERDTreeBufName) != -1
+      if winnr("$") == 1
+        q
+      endif
+    endif
+  endif
+endfunction
 
 " Keymaps to help toggle location
 nnoremap <leader>lc :NERDTreeFind<CR>
