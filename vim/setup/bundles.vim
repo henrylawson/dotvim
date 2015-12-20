@@ -46,6 +46,7 @@ NeoBundle 'reedes/vim-colors-pencil'
 " Markdown
 NeoBundle 'reedes/vim-pencil'
 NeoBundle 'junegunn/goyo.vim'
+NeoBundle 'PProvost/vim-markdown-jekyll'
 
 " JavaScript
 NeoBundle 'jelera/vim-javascript-syntax'
