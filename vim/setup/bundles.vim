@@ -30,6 +30,7 @@ NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'tmhedberg/matchit'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'godlygeek/tabular'
+NeoBundle 'jiangmiao/auto-pairs'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
@@ -54,6 +55,8 @@ NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'vim-scripts/ruby-matchit'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'tpope/vim-bundler'
+NeoBundle 'thoughtbot/vim-rspec'
 
 " Clojure
 NeoBundle 'guns/vim-clojure-static'

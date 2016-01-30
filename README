@@ -203,6 +203,13 @@ _             | contract visual selected region
 :w!!          | write with sudo
 <leader>go    | toggle goyo, fullscreen editing mode
 -------------------------------------------------------------------------------
+vim rspec
+-------------------------------------------------------------------------------
+<leader>t     | run current spec file
+<leader>s     | run nearest spec
+<leader>l     | run last spec
+<leader>a     | run all specs
+-------------------------------------------------------------------------------
 git gutter
 -------------------------------------------------------------------------------
 ]c            | next hunk of changes
