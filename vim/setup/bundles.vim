@@ -31,6 +31,7 @@ NeoBundle 'tmhedberg/matchit'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'jiangmiao/auto-pairs'
+NeoBundle 'hashivim/vim-hashicorp-tools'
 
 " Windows, Buffers
 NeoBundle 'vim-scripts/BufOnly.vim'
