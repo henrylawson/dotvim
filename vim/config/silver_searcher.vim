@@ -18,3 +18,8 @@ nnoremap <leader>cm :noh<CR>
 
 command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap <leader>f :Ag<SPACE>
+
+augroup quickfix
+    autocmd!
+    autocmd FileType qf setlocal nowrap
+augroup END
