@@ -71,4 +71,5 @@ NeoBundle 'wavded/vim-stylus'
 " Ansible
 NeoBundle 'chase/vim-ansible-yaml'
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
+NeoBundle 'fatih/vim-hclfmt'
 
