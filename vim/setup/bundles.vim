@@ -68,7 +68,7 @@ NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'wavded/vim-stylus'
 
-" Ansible
+" Infrastructure
 NeoBundle 'chase/vim-ansible-yaml'
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
 NeoBundle 'fatih/vim-hclfmt'
