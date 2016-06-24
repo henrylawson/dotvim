@@ -66,11 +66,6 @@ autocmd FileType text setlocal spell
 " Filetype association
 au BufNewFile,BufRead *rc set filetype=vim
 
-" Folding
-au FileType javascript call JavaScriptFold()
-set foldmethod=syntax
-set nofoldenable
-
 " Indent Line
 let g:indentLine_char = '┆'
 let g:indentLine_enabled = 1
