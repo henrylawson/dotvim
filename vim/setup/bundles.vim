@@ -49,7 +49,8 @@ NeoBundle 'reedes/vim-colors-pencil'
 NeoBundle 'junegunn/goyo.vim'
 
 " JavaScript
-NeoBundle 'jelera/vim-javascript-syntax'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'mxw/vim-jsx'
 NeoBundle 'mustache/vim-mustache-handlebars'
 
 " Ruby, Rails

@@ -88,3 +88,6 @@ set undodir=~/.vim/temp/undo//
 
 " Ensure the default matchit with vim is working
 runtime! macros/matchit.vim
+
+" JSX use .js files too
+let g:jsx_ext_required = 0
