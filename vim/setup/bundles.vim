@@ -14,7 +14,6 @@ NeoBundle 'Shougo/vimproc.vim', {
 " Files, Search, Navigation
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'rizzatti/dash.vim'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'sjl/gundo.vim'
@@ -56,18 +55,13 @@ NeoBundle 'mustache/vim-mustache-handlebars'
 " Ruby, Rails
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'vim-scripts/ruby-matchit'
-NeoBundle 'slim-template/vim-slim'
-NeoBundle 'tpope/vim-bundler'
-NeoBundle 'thoughtbot/vim-rspec'
-
-" Clojure
-NeoBundle 'guns/vim-clojure-static'
 
 " HTML/CSS
 NeoBundle 'othree/html5.vim'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'wavded/vim-stylus'
+NeoBundle 'slim-template/vim-slim'
 
 " Infrastructure
 NeoBundle 'chase/vim-ansible-yaml'
