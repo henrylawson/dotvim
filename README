@@ -6,8 +6,8 @@ To get started:
 1. ln -s /full/path/to/gvimrc ~/.gvimrc
 2. ln -s /full/path/to/vimrc ~/.vimrc
 3. ln -s /full/path/to/vim ~/.vim
-4. Install NeoBundle
-5. Run ~/.vim/bundle/neobundle.vim/bin/neoinstall
+4. Install vim-plug (should auto install)
+5. Open vim, run :PlugUpdate
 6. Install Powerline fonts (https://github.com/powerline/fonts)
 7. Install Hack font (https://github.com/chrissimpkins/Hack#desktop-usage)
 8. Install iterm2
