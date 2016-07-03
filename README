@@ -330,5 +330,15 @@ B             | bookmarks (off)
 q             | Close the NERDTree window
 A             | Zoom (maxim­ize­-mi­nimize) the NERDTree window
 ?             | toggle help
+-------------------------------------------------------------------------------
+vim-plug
+-------------------------------------------------------------------------------
+PlugInstall   | Install plugins
+PlugUpdate    | Install or update plugins
+PlugClean[!]  | Remove unused directories
+PlugUpgrade   | Upgrade vim-plug itself
+PlugStatus    | Check the status of plugins
+PlugDiff      | Examine changes from the previous update
+PlugSnapshot  | Generate script for restoring the current snapshot of plugins
 ===============================================================================
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2
