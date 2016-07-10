@@ -14,16 +14,22 @@ To get started:
 9. Install MacVim
 10. Install the_silver_searcher
 
-To perform a find/replace in multiple files:
---------------------------------------------
+Find/replace in multiple files (Option #1):
+-------------------------------------------
 1. <leader>f [search] [folder/file]
 2. Use [q or ]q to navigate quick fix results
-3. Option #1
+3. Sub Option #1
     i. Record a macro using q<letter>[movement]q
     ii. Use @<letter> to repeat the macro on each match
-   Option #2
+   Sub Option #2
     i. Do a substitution, :%s/a/b/gc
     ii. Repeat it in each file using gg and then &
+
+Find/replace in multiple files (Option #2):
+-------------------------------------------
+1. :args [path of files]/**/*.[ext]
+2. :argdo %s/find/replace/gce | update
+2: Hit q to ignore results
 
 ===============================================================================
 command     meaning
