@@ -5,10 +5,10 @@ autocmd WinEnter * call ToggleHiCursor()
 autocmd BufEnter * call ToggleHiCursor()
 
 function! ToggleHiCursor()
-	let fts = ['ruby', 'python', 'clojure', 'java', 'javascript', 'cpp', 'c']
-	if index(fts, &filetype) == -1
-		let g:HiCursorWords_hiGroupRegexp = 'nevermatchanyhighlightname'
-	else
-		let g:HiCursorWords_hiGroupRegexp = ''
-	endif
+  let fts = ['ruby', 'python', 'clojure', 'java', 'javascript', 'cpp', 'c']
+  if index(fts, &filetype) == -1
+    let g:HiCursorWords_hiGroupRegexp = 'nevermatchanyhighlightname'
+  else
+    let g:HiCursorWords_hiGroupRegexp = ''
+  endif
 endfunction

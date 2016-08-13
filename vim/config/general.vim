@@ -42,6 +42,7 @@ set undoreload=10000              " Number of lines to save for undo
 set writebackup                   " Make a backup before overwritting a file
 set backup                        " Make backup before overwrite
 set backupcopy=auto               " When possible, rename the old file
+set conceallevel=0                " show quotes in JSON
 
 " Colorscheme
 set background=dark
