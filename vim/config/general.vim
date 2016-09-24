@@ -66,6 +66,7 @@ autocmd FileType text setlocal spell
 
 " Filetype association
 au BufNewFile,BufRead *rc set filetype=vim
+au BufNewFile,BufRead Dockerfile* set filetype=dockerfile
 
 " Indent Line
 let g:indentLine_char = '┆'

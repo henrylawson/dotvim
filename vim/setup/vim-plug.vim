@@ -14,12 +14,10 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/DeleteTrailingWhitespace'
 Plug 'Raimondi/delimitMate'
-Plug 'Yggdroot/indentLine'
 Plug 'tmhedberg/matchit'
 Plug 'airblade/vim-gitgutter'
 Plug 'godlygeek/tabular'
 Plug 'jiangmiao/auto-pairs'
-Plug 'hashivim/vim-hashicorp-tools'
 
 " Windows, Buffers
 Plug 'vim-scripts/BufOnly.vim'
@@ -56,6 +54,7 @@ Plug 'slim-template/vim-slim'
 Plug 'chase/vim-ansible-yaml'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'fatih/vim-hclfmt'
+Plug 'hashivim/vim-hashicorp-tools'
 
 " Add plugins to &runtimepath
 call plug#end()
