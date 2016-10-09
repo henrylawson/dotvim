@@ -25,6 +25,7 @@ Plug 'moll/vim-bbye'
 
 " Colorschemes, Design
 Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ihacklog/HiCursorWords'
 Plug 'reedes/vim-colors-pencil'
 Plug 'muellan/am-colors'
