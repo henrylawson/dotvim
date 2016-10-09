@@ -48,7 +48,7 @@ set conceallevel=0                " show quotes in JSON
 set background=dark
 " colorscheme codeschool
 set guifont=Hack:h16
-colorscheme pencil
+colorscheme amcolors
 
 " Quickfix window
 augroup quickfix

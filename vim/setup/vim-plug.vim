@@ -27,6 +27,7 @@ Plug 'moll/vim-bbye'
 Plug 'bling/vim-airline'
 Plug 'ihacklog/HiCursorWords'
 Plug 'reedes/vim-colors-pencil'
+Plug 'muellan/am-colors'
 
 " Languages
 " =========
