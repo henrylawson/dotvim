@@ -54,9 +54,11 @@ Plug 'slim-template/vim-slim'
 
 " Infrastructure
 Plug 'chase/vim-ansible-yaml'
+Plug 'pearofducks/ansible-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'fatih/vim-hclfmt'
 Plug 'hashivim/vim-hashicorp-tools'
+Plug 'stephpy/vim-yaml'
 
 " Add plugins to &runtimepath
 call plug#end()
