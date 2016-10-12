@@ -59,6 +59,7 @@ Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'fatih/vim-hclfmt'
 Plug 'hashivim/vim-hashicorp-tools'
 Plug 'stephpy/vim-yaml'
+Plug 'ekalinin/Dockerfile.vim'
 
 " Add plugins to &runtimepath
 call plug#end()
