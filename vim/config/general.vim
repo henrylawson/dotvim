@@ -21,7 +21,7 @@ set guioptions-=L                 " Remove left scrollbar
 set tabstop=2                     " Spaces per tab
 set smarttab                      " Better tab bhaviour
 set autoindent                    " Indent like the line above
-ret smartindent                   " Do smart auto indent for new line
+set smartindent                   " Do smart auto indent for new line
 set autoread                      " Read changes if file changed
 set shiftwidth=2                  " Spacing to shift when using >>
 set softtabstop=2                 " How spaces to use for <tab> key in insert

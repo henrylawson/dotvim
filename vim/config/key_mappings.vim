@@ -9,6 +9,9 @@ noremap <down> <nop>
 noremap <left> <nop>
 noremap <right> <nop>
 
+" toggle for pasting to ignore indents
+set pastetoggle=<f5>
+
 " To open a new empty buffer
 nmap <leader>T :enew<CR>
 
