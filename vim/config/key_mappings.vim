@@ -13,8 +13,8 @@ noremap <right> <nop>
 nmap <leader>T :enew<CR>
 
 " Close the current buffer and move to the previous one
-nmap <leader>q :Bdelete<CR>
-nmap <leader><tab>q :Bdelete!<CR>
+nmap <leader>q :bd<CR>
+nmap <leader><tab>q :bd!<CR>
 
 " common commands
 nnoremap <leader>w :w<CR>
