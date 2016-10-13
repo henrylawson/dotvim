@@ -49,9 +49,6 @@ set background=dark
 set guifont=Hack:h16
 colorscheme amcolors
 
-" hide netrw banner
-let g:netrw_banner=0
-
 " Quickfix window
 augroup quickfix
   autocmd!
