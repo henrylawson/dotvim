@@ -294,48 +294,18 @@ yO            | paste with O
 yI            | paste with I
 yA            | paste with A
 -------------------------------------------------------------------------------
-NERDTree
+netrw
 -------------------------------------------------------------------------------
-<leader>lc    | show file in NERDTree
-r             | refresh NERDTree node
-o             | open in prev window
-go            | preview
-t             | open in new tab
-T             | open in new tab silently
-i             | open split
-gi            | preview split
-s             | open vsplit
-gs            | preview vsplit
-o             | open & close
-O             | recurs­ively open
-x             | close parent
-X             | close all children recurs­ively
-e             | explore selected dir
-o             | open bookmark
-t             | open in new tab
-T             | open in new tab silently
-D             | delete bookmark
-C             | change tree root to selected dir
-u             | move tree root up a dir
-U             | move tree root up a dir but leave old root open
-r             | refresh cursor dir
-R             | refresh current root
-m             | Show menu
-cd            | change the CWD to the selected dir
-CD            | change tree root to CWD
-p             | go to parent
-P             | go to root
-K             | go to first child
-J             | go to last child
-<C-k>         | go to prev sibling
-<C-j>         | go to next sibling
-I             | hidden files (off)
-f             | file filters (on)
-F             | files (on)
-B             | bookmarks (off)
-q             | Close the NERDTree window
-A             | Zoom (maxim­ize­-mi­nimize) the NERDTree window
-?             | toggle help
+:e.           | at current working directory
+:sp.          | in split at current working directory
+:vs.          | in vertical split at current working directory
+:E            | at directory of current file
+:Se           | in split at directory of current file
+:Vex          | in vertical split at directory of current file
+%             | create a new file
+d             | create a new directory
+R             | rename the file/directory under the cursor
+D             | Delete the file/directory under the cursor
 -------------------------------------------------------------------------------
 vim-plug
 -------------------------------------------------------------------------------

@@ -23,9 +23,6 @@ nnoremap <leader>w :w<CR>
 nmap <leader>cs :let @*=expand("%")<CR>       " relative path
 nmap <leader>cl :let @*=expand("%:p")<CR>     " full path
 
-" dash
-nmap <silent> <leader>D <Plug>DashSearch
-
 " reindent the entire file
 map <Leader>I gg=G``<CR>
 
