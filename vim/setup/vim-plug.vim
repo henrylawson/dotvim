@@ -5,7 +5,6 @@ Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'sjl/gundo.vim'
-Plug 'duggiefresh/vim-easydir'
 
 " Code, Text
 Plug 'terryma/vim-expand-region'
@@ -20,13 +19,11 @@ Plug 'jiangmiao/auto-pairs'
 
 " Windows, Buffers
 Plug 'vim-scripts/BufOnly.vim'
-Plug 'moll/vim-bbye'
 
 " Colorschemes, Design
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ihacklog/HiCursorWords'
-Plug 'reedes/vim-colors-pencil'
 Plug 'muellan/am-colors'
 
 " Languages

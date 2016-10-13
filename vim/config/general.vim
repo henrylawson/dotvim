@@ -4,7 +4,6 @@ syntax enable                     " Turn on syntax highlighting
 set showcmd                       " Display incomplete commands
 set showmode                      " Display the mode you're in
 set backspace=indent,eol,start    " Intuitive backspacing
-set hidden                        " Handle multiple buffers better
 set wildmenu                      " Enhanced command line completion
 set wildmode=list:longest         " Complete files like a shell
 set ignorecase                    " Case-insensitive searching
