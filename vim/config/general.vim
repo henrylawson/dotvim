@@ -26,7 +26,6 @@ set autoread                      " Read changes if file changed
 set shiftwidth=2                  " Spacing to shift when using >>
 set softtabstop=2                 " How spaces to use for <tab> key in insert
 set expandtab                     " Use spaces instead of \t
-set colorcolumn=80                " Column bar
 set cursorline                    " Highlight the current line
 filetype on                       " Enable filetype detection
 filetype indent on                " Enable filetype-specific indenting
@@ -48,6 +47,10 @@ set background=dark
 " colorscheme codeschool
 set guifont=Hack:h16
 colorscheme amcolors
+
+" change background colour when lines are long
+set colorcolumn=0
+au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
 " Quickfix window
 augroup quickfix
