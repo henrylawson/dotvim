@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Files, Search, Navigation
+Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
