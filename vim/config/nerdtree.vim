@@ -32,3 +32,5 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Clean"     : "✔︎",
     \ "Unknown"   : "?"
     \ }
+
+let g:NERDTreeWinSize = 50
