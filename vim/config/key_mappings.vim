@@ -39,7 +39,7 @@ nmap <leader>z :BufOnly<CR>
 nnoremap <leader>u :GundoToggle<CR>
 
 " Reload vim config
-nmap <leader>rr :so $MYVIMRC<CR>:AirlineRefresh<CR>
+nmap <leader>rr :so $MYVIMRC<CR>:AirlineRefresh<CR>:PlugUpdate<CR>:PlugUpgrade<CR>:PlugClean<CR>
 
 " Repeat last substitution
 nnoremap & :&&<CR>

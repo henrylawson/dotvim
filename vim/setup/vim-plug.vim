@@ -5,6 +5,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'sjl/gundo.vim'
+Plug 'tpope/vim-vinegar'
 
 " Code, Text
 Plug 'terryma/vim-expand-region'
