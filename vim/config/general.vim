@@ -50,6 +50,10 @@ set background=dark
 set guifont=Hack:h16
 colorscheme amcolors
 
+" change the spelling error style
+hi clear SpellBad
+hi SpellBad cterm=underline
+
 " Quickfix window
 augroup quickfix
   autocmd!
