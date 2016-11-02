@@ -20,6 +20,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " Windows, Buffers
 Plug 'vim-scripts/BufOnly.vim'
+Plug 'moll/vim-bbye'
 
 " Colorschemes, Design
 Plug 'bling/vim-airline'
