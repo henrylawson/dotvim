@@ -15,12 +15,10 @@ set pastetoggle=<f5>
 " To open a new empty buffer
 nmap <leader>T :enew<CR>
 
-" Close the current buffer and move to the previous one
-nmap <leader>q :bd<CR>
-nmap <leader><tab>q :bd!<CR>
-
 " common commands
 nnoremap <leader>w :w<CR>
+nnoremap <Leader>q :Bdelete<CR>
+nnoremap <Leader>v :bufdo :Bdelete<CR>
 
 " copy commands to grab file names
 nmap <leader>cs :let @*=expand("%")<CR>       " relative path
