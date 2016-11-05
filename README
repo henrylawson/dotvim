@@ -78,6 +78,7 @@ is            | current sentence
 as            | current sentence plus one
 ip            | current paragraph
 ap            | current paragraph plus one blank line
+g<C-g>        | show the word, line, byte count
 ...............................................................................
 text changes
 ...............................................................................
