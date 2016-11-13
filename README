@@ -15,6 +15,13 @@ To get started:
 9. Install MacVim
 10. Install the_silver_searcher
 
+Find and replace in file
+------------------------
+1. Using * or /[search] and cw then repeating with .
+2. :%s/blue\(\d\+\)/red\1/ repalce blue with red, keeping content in brackets
+3. /blue\(\d\+\) then :%s//red\1/
+4. :%s,/search,/replace, can be used when you want to search for "/"
+
 Find/replace in multiple files (Option #1):
 -------------------------------------------
 1. <leader>f [search] [folder/file]
@@ -51,6 +58,10 @@ P             | paste yank before
 ga            | view ASCII value
 vi{char}      | in visual mode, select everything inside char
 va{char}      | in visual mode, select everything inside, including char
+ci{char}      | change contents inside {char}
+ca{char}      | change contents including {char}
+di{char}      | delete contents inside {char}
+da{char}      | delete contents including {char}
 r             | replace character
 x             | delete character
 dd            | delete line
@@ -65,8 +76,10 @@ y             | yank selection
 <C-w>         | in insert mode, delete back one word
 <C-h>         | in insert mode, delete back one character
 <C-u>         | in insert mode, delete to start of line
-<C-[>         | in insert mode, switch to insert mode
+<C-[>         | in insert mode, switch to normal mode
 <C-o>         | in insert mode, switch to insert normal mode
+<C-c>         | in insert mode, switch back to normal mode
+gi            | in normal mode, switch back to insert in previous position
 gv            | switch to visual mode, selecting the last selection
 o             | in visual mode, go to other end of selection
 I             | in visual block mode, insert for all lines
@@ -150,6 +163,7 @@ windows
 <C-w>hjkl     | focus window using directional keys
 <C-w>c        | close the active window
 <C-w>o        | keep only current window
+:on           | keep only current window
 <C-e>         | scroll the viewport down
 <C-y>         | scroll the viewport up
 ...............................................................................
@@ -355,7 +369,7 @@ Tabular.vim
 -------------------------------------------------------------------------------
 ctags
 -------------------------------------------------------------------------------
-:tag /<pat..> | type the pattern to search for
+:tag /{pat..} | type the pattern to search for
 :tn           | move to next definition (:tnext)
 :tp           | move to previous definition (:tprevious)
 :ts           | list all definitions (:tselect)
