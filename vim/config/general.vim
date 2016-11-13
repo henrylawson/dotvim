@@ -79,6 +79,9 @@ au BufNewFile,BufRead Dockerfile* set filetype=dockerfile
 let g:indentLine_char = '┆'
 let g:indentLine_enabled = 1
 
+" vim-ansible-yaml ignore identation
+let g:ansible_options = {'ignore_blank_lines': 0}
+
 " Return to last edit position when opening files
 autocmd BufReadPost *
       \ if line("'\"") > 0 && line("'\"") <= line("$") |

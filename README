@@ -6,6 +6,7 @@ To get started:
 1. ln -s /full/path/to/gvimrc ~/.gvimrc
 2. ln -s /full/path/to/vimrc ~/.vimrc
 3. ln -s /full/path/to/vim ~/.vim
+3. ln -s /full/path/to/ctags ~/.ctags
 4. Install vim-plug (should auto install)
 5. Open vim, run :PlugUpdate
 6. Install Powerline fonts (https://github.com/powerline/fonts)
@@ -340,12 +341,27 @@ A             | Zoom (maxim­ize­-mi­nimize) the NERDTree window
 -------------------------------------------------------------------------------
 vim-plug
 -------------------------------------------------------------------------------
-PlugInstall   | Install plugins
-PlugUpdate    | Install or update plugins
-PlugClean[!]  | Remove unused directories
-PlugUpgrade   | Upgrade vim-plug itself
-PlugStatus    | Check the status of plugins
-PlugDiff      | Examine changes from the previous update
-PlugSnapshot  | Generate script for restoring the current snapshot of plugins
+PlugInstall   | install plugins
+PlugUpdate    | install or update plugins
+PlugClean[!]  | remove unused directories
+PlugUpgrade   | upgrade vim-plug itself
+PlugStatus    | check the status of plugins
+PlugDiff      | examine changes from the previous update
+PlugSnapshot  | generate script for restoring the current snapshot of plugins
+-------------------------------------------------------------------------------
+Tabular.vim
+-------------------------------------------------------------------------------
+:Tab/<char>   | highlight then type
+-------------------------------------------------------------------------------
+ctags
+-------------------------------------------------------------------------------
+:tag /<pat..> | type the pattern to search for
+:tn           | move to next definition (:tnext)
+:tp           | move to previous definition (:tprevious)
+:ts           | list all definitions (:tselect)
+<C-]>         | jump to definition
+<C-t>         | jump back from definition
+<C-W>}        | preview definition
+g]            | see all definitions
 ===============================================================================
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2
