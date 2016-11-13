@@ -363,5 +363,7 @@ ctags
 <C-t>         | jump back from definition
 <C-W>}        | preview definition
 g]            | see all definitions
+<leader>.     | show the ctrlp search for ctags
+<F8>          | show the tagbar
 ===============================================================================
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2
