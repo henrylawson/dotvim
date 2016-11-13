@@ -378,6 +378,19 @@ ctags
 <C-W>}        | preview definition
 g]            | see all definitions
 <leader>.     | show the ctrlp search for ctags
-<F8>          | show the tagbar
+<C-[>         | show the tagbar
+-------------------------------------------------------------------------------
+autocomplete
+-------------------------------------------------------------------------------
+<C-p>         | previous word from completion list
+<C-n>         | next word from pletion list
+<C-x> <C-l>   | whole line completion
+<C-x> <C-o>   | syntax-aware omnicompletion
+Menu <C-n>    | next word from completion list
+Menu <C-p>    | previous word from completion list
+Menu <C-y>    | select word in menu
+Menu <C-e>    | exit from menu
+Menu <Enter>  | select word and new line
+Menu [cont.]  | continue typing from menu to select and move on
 ===============================================================================
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2

@@ -1,4 +1,3 @@
-let mapleader="\\"                " Leader key!
 set nocompatible                  " Make it not vi compatable
 syntax enable                     " Turn on syntax highlighting
 set showcmd                       " Display incomplete commands
@@ -44,9 +43,8 @@ set backupcopy=auto               " When possible, rename the old file
 set conceallevel=0                " show quotes in JSON
 set copyindent                    " avoid tabbing on paste
 
-" Colorscheme
+" colorscheme
 set background=dark
-" colorscheme codeschool
 set guifont=Hack:h16
 colorscheme amcolors
 
@@ -61,7 +59,7 @@ augroup quickfix
 augroup END
 
 " trigger autoread when inactive
-au CursorHold,CursorHoldI * checktime
+autocmd CursorHold,CursorHoldI * checktime
 
 " spell check
 autocmd BufRead,BufNewFile *.md setlocal spell
@@ -72,8 +70,8 @@ autocmd FileType gitcommit setlocal spell
 autocmd FileType text setlocal spell
 
 " Filetype association
-au BufNewFile,BufRead *rc set filetype=vim
-au BufNewFile,BufRead Dockerfile* set filetype=dockerfile
+autocmd BufNewFile,BufRead *rc set filetype=vim
+autocmd BufNewFile,BufRead Dockerfile* set filetype=dockerfile
 
 " Indent Line
 let g:indentLine_char = '┆'

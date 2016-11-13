@@ -1,5 +1,5 @@
 nmap <leader>. :CtrlPTag<cr>
-nmap <F8> :TagbarToggle<CR>
+nmap <C-[> :TagbarToggle<CR>
 
 set tags=.tags;/
 

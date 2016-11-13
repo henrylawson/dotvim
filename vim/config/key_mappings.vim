@@ -1,3 +1,5 @@
+let mapleader="\\"
+
 " Folding
 inoremap <F9> <C-O>za
 nnoremap <F9> za

@@ -46,6 +46,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/ruby-matchit'
 
 " HTML/CSS
+Plug 'ap/vim-css-color'
 Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'groenewege/vim-less'
