@@ -5,9 +5,13 @@ onoremap <F9> <C-C>za
 
 " Disabling arrow keys
 noremap <up> <nop>
+noremap! <up> <nop>
 noremap <down> <nop>
+noremap! <down> <nop>
 noremap <left> <nop>
+noremap! <left> <nop>
 noremap <right> <nop>
+noremap! <right> <nop>
 
 " toggle for pasting to ignore indents
 set pastetoggle=<f5>
