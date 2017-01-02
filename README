@@ -378,7 +378,7 @@ ctags
 <C-W>}        | preview definition
 g]            | see all definitions
 <leader>.     | show the ctrlp search for ctags
-<C-[>         | show the tagbar
+<C-i>         | show the tagbar
 <C-\>         | open defninition of tag in  new buffer
 -------------------------------------------------------------------------------
 autocomplete
