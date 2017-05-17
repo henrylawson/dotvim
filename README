@@ -9,11 +9,9 @@ To get started:
 3. ln -s /full/path/to/ctags ~/.ctags
 4. Install vim-plug (should auto install)
 5. Open vim, run :PlugUpdate
-6. Install Powerline fonts (https://github.com/powerline/fonts)
-7. Install Hack font (https://github.com/chrissimpkins/Hack#desktop-usage)
-8. Install iterm2
-9. Install MacVim
-10. Install the_silver_searcher
+6. Install Hack font (https://github.com/chrissimpkins/Hack#desktop-usage)
+7. Install iterm2
+8. Install the_silver_searcher
 
 Find and replace in file
 ------------------------
