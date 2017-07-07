@@ -6,3 +6,4 @@ endif
 
 source ~/.vim/setup/vim-plug.vim
 runtime! config/*.vim
+runtime! localext/*.vim
