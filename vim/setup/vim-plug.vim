@@ -6,6 +6,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'sjl/gundo.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
+Plug 'junegunn/fzf.vim'
 
 " Code, Text
 Plug 'terryma/vim-expand-region'
