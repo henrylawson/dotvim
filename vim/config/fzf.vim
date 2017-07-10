@@ -33,4 +33,6 @@ let g:fzf_colors =
 " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
+let $FZF_DEFAULT_COMMAND='ag -l --nocolor -g ""'$
+
 map <C-p> :FZF<CR>
