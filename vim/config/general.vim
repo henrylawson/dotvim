@@ -46,7 +46,7 @@ set copyindent                    " avoid tabbing on paste
 " colorscheme
 set background=dark
 set guifont=Hack:h16
-colorscheme amcolors
+color dracula
 
 " change the spelling error style
 hi clear SpellBad

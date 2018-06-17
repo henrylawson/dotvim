@@ -29,7 +29,7 @@ Plug 'moll/vim-bbye'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ihacklog/HiCursorWords'
-Plug 'muellan/am-colors'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Languages
 " =========
