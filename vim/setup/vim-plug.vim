@@ -28,7 +28,7 @@ Plug 'moll/vim-bbye'
 " Colorschemes, Design
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ihacklog/HiCursorWords'
+Plug 'mrded/vim-hi-cursor-words'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Languages
