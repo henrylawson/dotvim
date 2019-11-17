@@ -18,7 +18,6 @@ Plug 'tmhedberg/matchit'
 Plug 'airblade/vim-gitgutter'
 Plug 'godlygeek/tabular'
 Plug 'jiangmiao/auto-pairs'
-Plug 'craigemery/vim-autotag'
 Plug 'majutsushi/tagbar'
 
 " Windows, Buffers
